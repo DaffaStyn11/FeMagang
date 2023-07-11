@@ -18,8 +18,7 @@
                         where
                         trust
                         and comfort are priorities.</p>
-                    <a href="#" class="px-8 py-4 bg-teal-500 text-white rounded inline-block mt-8 font-semibold">Book
-                        Appointment</a>
+                    <a href="#" class="px-8 py-4 bg-teal-500 text-white rounded inline-block mt-8 font-semibold">Kirim Permintaan Surat</a>
                 </div>
             </div>
         </section>
