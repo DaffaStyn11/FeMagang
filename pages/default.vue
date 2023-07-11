@@ -20,6 +20,7 @@
   import About from './About.vue';
   import Footer from './Footer.vue';
   import Testimonial from './Testimonial.vue';
+  import Komponen from './Komponen.vue';
   
   export default {
     components: {
@@ -28,7 +29,8 @@
       About,
       Footer,
       Cta,
-      Testimonial
+      Testimonial,
+      Komponen
     }
   }
   </script>
