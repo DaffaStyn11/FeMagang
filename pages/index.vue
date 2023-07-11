@@ -25,8 +25,8 @@
                 <path
                   d="M14.594,13.994l-1.66,1.66c-0.577-0.109-1.734-0.471-2.926-1.66c-1.193-1.193-1.553-2.354-1.661-2.926l1.661-1.66 l0.701-0.701L5.295,3.293L4.594,3.994l-1,1C3.42,5.168,3.316,5.398,3.303,5.643c-0.015,0.25-0.302,6.172,4.291,10.766 C11.6,20.414,16.618,20.707,18,20.707c0.202,0,0.326-0.006,0.358-0.008c0.245-0.014,0.476-0.117,0.649-0.291l1-1l0.697-0.697 l-5.414-5.414L14.594,13.994z" />
               </svg>
-
-              <span class="ml-2">+1 562-789-1935</span>
+              <span>Hubungi Kami:</span>
+              <span class="ml-2">(0321) 391268</span>
             </div>
           </li>
         </ul>
@@ -107,8 +107,7 @@
             <li class="md:ml-4"><a class="py-2 inline-block md:text-white md:px-2 font-semibold" href="#">Contact
                 Us</a></li>
             <li class="md:ml-6 mt-3 md:mt-0">
-              <a class='inline-block font-semibold px-4 py-2 text-white bg-blue-600 md:bg-transparent md:text-white border border-white rounded' href='/dentalpro/book-appointment'>Book
-                Appointment</a>
+              <a class='inline-block font-semibold px-4 py-2 text-white bg-blue-600 md:bg-transparent md:text-white border border-white rounded'>Login</a>
             </li>
           </ul>
         </nav>
@@ -259,7 +258,7 @@
   <!-- start cta -->
   <section class="relative bg-blue-teal-gradient px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-8">
     <div class="flex items-center justify-center">
-      <h2 class="text-xl font-bold text-white">Get in touch with us today! Call us on: +1 562-789-1935</h2>
+      <h2 class="text-xl font-bold text-white">Get in touch with us today! Call us on: </h2>
       <a href="#" class="px-8 py-4 bg-white text-blue-600 rounded inline-block font-semibold ml-8">Book Appointment</a>
     </div>
   </section>
@@ -507,4 +506,5 @@ span.arrow:hover .arrow_icon svg {
     border-bottom-right-radius: 256px;
   }
 }
+
 </style>
