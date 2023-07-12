@@ -19,9 +19,18 @@ export default {
     ]
   },
 
-  // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '@/assets/main.css',
+    '@assets/css/style.css',
+    '@assets/vendors/mdi/css/materialdesignicons.min.css',
+    '@assets/vendors/css/vendor.bundle.base.css',
+    '@assets/main.css',
+  ],
+  js:[
+    '@assets/js/off-canvas.js',
+    '@assets/js/hoverable-collapse.js',
+    '@assets/js/misc.js',
+    '@assets/js/settings.js',
+    '@assets/js/todolist.js',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

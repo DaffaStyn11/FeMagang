@@ -1,30 +1,32 @@
 <template>
-  <div class="antialiased bg-white font-sans text-gray-900">
-    <Header />
-    <Hero />
-    <About />
-    <Testimonial />
-    <div class="flex flex-col md:flex-row mt-24 text-center md:-mx-4">
-      <Footer />
+<div class="container-scroller">
+      <!-- partial:partials/_sidebar.html -->
+      <Sidebar />
+      <!-- partial -->
+      <div class="container-fluid page-body-wrapper">
+        <!-- partial:partials/_navbar.html -->
+        <Navbar />
+        <!-- partial -->
+        <Content />
+        <!-- main-panel ends -->
+        <Footer />
+      </div>
+      <!-- page-body-wrapper ends -->
     </div>
-  </div>
 </template>
 
 <script>
-import Header from '../components/Header.vue';
-import Hero from '../components/Hero.vue';
-import About from '../components/About.vue';
-import Testimonial from '../components/Testimonial.vue';
+import Content from '../components/Content.vue';
+import Sidebar from '../components/Sidebar.vue';
+import Navbar from '../components/Navbar.vue';
 import Footer from '../components/Footer.vue';
-// import ServiceCard from '../components/ServiceCard.vue';
 
 export default {
   components: {
-    Header,
-    Hero,
-    About,
+    Content,
+    Navbar,
+    Sidebar,
     Footer,
-    Testimonial,
   }
 }
 </script>
