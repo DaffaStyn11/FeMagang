@@ -9,7 +9,7 @@
           <!-- partial -->
           <Content />
           <!-- main-panel ends -->
-          <Footer />
+
         </div>
         <!-- page-body-wrapper ends -->
       </div>
@@ -19,7 +19,6 @@
   import Content from '../components/Content.vue';
   import Sidebar from '../components/Sidebar.vue';
   import Navbar from '../components/Navbar.vue';
-  import Footer from '../components/Footer.vue';
   
   export default {
     name:'Dashboard',
@@ -27,7 +26,6 @@
       Content,
       Navbar,
       Sidebar,
-      Footer,
     }
   }
   </script>

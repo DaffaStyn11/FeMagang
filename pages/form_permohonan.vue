@@ -69,7 +69,6 @@
           <!-- page-body-wrapper ends -->
         
               <!-- main-panel ends -->
-              <Footer />
             </div>
             <!-- page-body-wrapper ends -->
           </div>
