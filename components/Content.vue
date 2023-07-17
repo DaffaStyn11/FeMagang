@@ -25,14 +25,14 @@
                     </tr>
                   </thead>
                   <tbody>
-                    <tr>
+                    <tr v-for="(data_permohonan, index) in data_permohonan" :key="index">
                       <td> 1 </td>
-                      <td> Herman Beck </td>
-                      <td> $ 77.99 </td>
-                      <td> May 15, 2015 </td>
-                      <td> May 15, 2015 </td>
-                      <td> May 15, 2015 </td>
-                      <td> May 15, 2015 </td>
+                      <td> {{ data_permohonan.perihal }} </td>
+                      <td> {{ data_permohonan.deadline }}</td>
+                      <td> {{ data_permohonan.kop_surat }} </td>
+                      <td> {{ data_permohonan.pic }} </td>
+                      <td> {{ data_permohonan.id_agenda }}</td>
+                      <td> {{ data_permohonan.status }} </td>
                     </tr>
                   </tbody>
                 </table>

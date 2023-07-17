@@ -20,6 +20,10 @@ const routes =[
                 path: '/form_permohonan',
                 component:()=>import('../pages/form_permohonan')
             },
+            {
+                path: '/form_permohonan_edit',
+                component:()=>import('../pages/form_permohonan_edit')
+            },
         ]
     }
 ]
