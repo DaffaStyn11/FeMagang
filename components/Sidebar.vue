@@ -3,9 +3,7 @@
         <div class="sidebar-brand-wrapper d-none d-lg-flex align-items-center justify-content-center fixed-top">
           <a class="sidebar-brand brand-logo" href="index.html"><img src="../assets/images/favicon.png" alt="logo" /></a>
           <a class="sidebar-brand brand-logo-mini" href="index.html"><img src="../assets/images/favicon.png" alt="logo" /></a>
-          <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
-        <span class="mdi mdi-menu"></span>
-      </button>
+
         </div>
         <ul class="nav">
           <li class="nav-item profile">
