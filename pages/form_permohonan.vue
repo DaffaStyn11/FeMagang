@@ -61,16 +61,9 @@
                              <!-- <span class="text-danger">{{ this.errorList.status[0] }}</span> -->
                         </div>
                         <!-- </div> -->
-<<<<<<< HEAD
                         <button type="submit" class="btn btn-primary mr-2">Submit</button>
                         <button class="btn btn-dark">Cancel</button>
                       </form>
-=======
-                          <button type="submit" class="btn btn-primary mr-2">Submit</button>
-                          <a href="/dashboard" class="btn btn-dark">Cancel</a>
-                        </form>
-                      </div>
->>>>>>> 037c7678855834415018117ce9642f4ab1f2ea0b
                     </div>
                   </div>
                 </div>
@@ -149,4 +142,4 @@ export default {
     }
   }
 }
-</script>q
+</script>
